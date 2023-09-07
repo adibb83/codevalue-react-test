@@ -1,0 +1,17 @@
+.products-list-container {
+  flex-basis: 50%;
+  max-height: 100%;
+  overflow-y:hidden;
+
+  .list-container {
+    max-height: 90%;
+    overflow-y: auto;
+    .products-list {
+      height: 100%;
+    }
+  }
+}
+
+.searchAppBar-list-container {
+    max-height: 5rem;
+}

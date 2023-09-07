@@ -1,0 +1,11 @@
+.product-form-container {
+  border: 1px solid black;
+  position: relative;
+
+  .form-container {
+    position: absolute;
+    top: 50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+  }
+}
